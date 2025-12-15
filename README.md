@@ -1,20 +1,88 @@
-<<<<<<< HEAD
-# React + Vite
+# ⏰ Study‑Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, distraction‑free study clock and timer built with React and Vite.  
+Designed for full‑screen use with a calm black background and large, clear time display.
 
-Currently, two official plugins are available:
+> “Small consistent efforts beat rare bursts of motivation.”
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Full‑screen digital **clock** for your workspace
+- Big **study timer** to track total focused hours
+- Simple tab switch between Clock and Study Timer
+- Minimal UI, calm colors, no extra clutter
 
-## Expanding the ESLint configuration
+> “Focus on the next minute, not the next month.”
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Study-Clock
->>>>>>> 7685460017b5e2ce34047fb3a608acdc97e69666
+---
+
+## 🚀 Tech Stack
+
+- React
+- Vite
+- CSS (no UI framework)
+
+---
+
+## 🖥️ Getting Started
+
+clone the repository
+git clone https://github.com/bhaveshkerkar/Study-Clock.git
+
+go into the project folder
+cd Study-Clock
+
+install dependencies
+npm install
+
+start dev server
+npm run dev
+
+Then open the URL shown in the terminal (usually `http://localhost:5173`).
+
+---
+
+## 🧠 How It Works
+
+- **Clock tab** shows the current system time in a large font
+- **Study Timer tab** lets you:
+  - Start counting your study time
+  - Pause when you take a break
+  - Reset when you finish a session
+
+> “You don’t need to be perfect, you just need to be consistent.”
+
+---
+
+## 🧩 Folder Structure (short)
+
+Study-Clock/
+├─ src/
+│ ├─ compo/
+│ │ ├─ Clock.jsx
+│ │ └─ StudyTimer.jsx
+│ ├─ App.jsx
+│ ├─ App.css
+│ └─ main.jsx
+└─ package.json
+
+---
+
+## 💡 Future Ideas
+
+- Daily / weekly study stats
+- Sound or visual alert when a target time is reached
+- Light theme for daytime sessions
+
+> “One focused hour today is better than ten ‘busy’ hours tomorrow.”
+
+---
+
+## 🙌 Contributing
+
+Suggestions, issues, and pull requests are welcome.  
+Use it, fork it, or modify it to fit your own study routine.
+
+> “Show up for your future self, one session at a time.”
