@@ -1,4 +1,27 @@
-# ⏰ Study‑Clock
+<h1 align="center">
+  ⏰ Study‑Clock
+</h1>
+
+<p align="center">
+  <span style="font-size: 20px; font-weight: 500;">
+    A calm, distraction‑free clock and study timer.
+  </span>
+</p>
+
+<p align="center">
+  <span style="
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #111827;
+    color: #e5e7eb;
+    font-size: 14px;
+  ">
+    Stay a little longer. Study a little deeper.
+  </span>
+</p>
+
+---
 
 A minimal, distraction‑free study clock and timer built with React and Vite.  
 Designed for full‑screen use with a calm black background and large, clear time display.
@@ -28,17 +51,29 @@ Designed for full‑screen use with a calm black background and large, clear tim
 
 ## 🖥️ Getting Started
 
-clone the repository
+**Clone the repository**
+
 git clone https://github.com/bhaveshkerkar/Study-Clock.git
 
-go into the project folder
+text
+
+**Go into the project folder**
+
 cd Study-Clock
 
-install dependencies
+text
+
+**Install dependencies**
+
 npm install
 
-start dev server
+text
+
+**Start dev server**
+
 npm run dev
+
+text
 
 Then open the URL shown in the terminal (usually `http://localhost:5173`).
 
@@ -67,6 +102,8 @@ Study-Clock/
 │ ├─ App.css
 │ └─ main.jsx
 └─ package.json
+
+text
 
 ---
 
